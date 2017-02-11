@@ -5,7 +5,7 @@ close all;
 imSelect = 1;
 M = 4;
 K = zeros(36, 1, 'uint32');
-color_img_pathname = 'C:\Users\Harish\Desktop\Cyclone detection on Bill\output\';
+color_img_pathname = 'put the directory path here ';
 initial_frame_number = 3;
 final_frame_number = 21;
 for i = initial_frame_number : final_frame_number
