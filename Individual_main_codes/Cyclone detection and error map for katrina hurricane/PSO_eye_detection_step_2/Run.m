@@ -4,7 +4,7 @@ clear all;
 close all;
 imSelect = 1;
 K = zeros(50, 1, 'uint32');
-color_img_pathname = 'C:\Users\Harish\Desktop\Atmospheric research Cyclone Detection (HT)\Cyclone detection and error map on william\output\';
+color_img_pathname = 'put the directory path here ';
 initial_frame_number = 1;
 final_frame_number = 50;
 for i = initial_frame_number : final_frame_number
